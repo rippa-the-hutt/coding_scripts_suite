@@ -15,9 +15,10 @@ Usage: cpointerdeclaration TARGET_CONVENTION
 Where:
 TARGET_CONVENTION:  can take one of the possible values: \"type\" or\
 \"value\".
-                    The type convention is a declaration like \
-\`int* my_var\`, whereas the value convention is a declaration like \
-\`int *my_var\`."
+Following you can immediately see the difference between the value and type \
+styles:
+    int* my_var // type
+    int *my_var // value"
 }
 
 if [[ "$#" -ne 1 ]]; then
